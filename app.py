@@ -18,7 +18,7 @@ with open(css_file) as f:
 HUGGINGFACEHUB_API_TOKEN = os.getenv('HUGGINGFACEHUB_API_TOKEN')
 
 def call_chatbot_api(query):    
-    url = 'https://binqiangliu-usinositeopenailmchunksize500fastapi.hf.space/api/chat'
+    url = 'https://binqiangliu-usinositeopenaillmchunksize500fastapi.hf.space/api/chat'
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {HUGGINGFACEHUB_API_TOKEN}"
