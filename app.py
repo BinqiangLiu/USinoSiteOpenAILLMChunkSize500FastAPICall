@@ -42,4 +42,4 @@ if st.button('Get AI Response'):
             response = call_chatbot_api(user_query)
             st.write("USino AI Response:")
             st.write(response)
-        print(response)  # 打印Chatbot的响应
+            print(response)  # 打印Chatbot的响应
